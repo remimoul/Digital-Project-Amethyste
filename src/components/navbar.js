@@ -16,7 +16,6 @@ function Navbar() {
       </ul>
     </nav>
     </div>
-
   );
 }
 

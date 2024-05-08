@@ -9,6 +9,10 @@ module.exports = {
         'agir': '#C6B6D9',
         'event': '#E3C9E2',
         'grin': '#34B7C0',
+        'custom-purple': '#F1C9FF',
+      },
+      fontFamily: {
+        'inter': ['Inter', 'sans-serif'],
       },
     },
   },
