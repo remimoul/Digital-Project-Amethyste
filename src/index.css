@@ -58,7 +58,7 @@ body {
 }
 
 .custom-color-text-4 {
-  background: linear-gradient(180deg, rgba(226,159,222,1) 4%, rgba(0,128,255,1) 57%, rgba(48,67,153,1) 100%);
+  background: linear-gradient(180deg, rgba(226, 159, 222, 1) 4%, rgba(0, 128, 255, 1) 57%, rgba(48, 67, 153, 1) 100%);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
@@ -68,7 +68,13 @@ body {
 }
 
 .custom-color-text-5 {
-  background: linear-gradient(180deg, rgba(138,255,187,1) 1%, rgba(153,233,204,1) 33%, rgba(131,217,226,1) 75%, rgba(139,194,255,1) 99%);
+  background: linear-gradient(
+    180deg,
+    rgba(138, 255, 187, 1) 1%,
+    rgba(153, 233, 204, 1) 33%,
+    rgba(131, 217, 226, 1) 75%,
+    rgba(139, 194, 255, 1) 99%
+  );
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
