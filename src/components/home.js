@@ -18,19 +18,36 @@ function Home() {
               <button className="bg-custom-purple py-2 px-2 rounded-lg font-inter w-48">Lire le rapport d'étude</button>
             </div>
           </div>
-          <div className="flex  justify-center items-center ml-16">
+          <div className="flex flex-wrap  justify-center items-center ml-16">
             <CustomCard
+              titleColor="custom-color-text"
               title="20%"
               subtitle="Des arrêts de travail concernent des troubles anxieux et des syndromes dépressifs"
             />
             <CustomCard
+              titleColor="custom-color-text"
               title="1ère en France"
               subtitle="Qualité de Vie et les Conditions au Travail (QVCT) décroche la première place dans les attentes des salariés français."
             />
-            <CustomCard title="90%" subtitle="S'accordent à dire que la santé mentale est la priorité pour 2024" />
             <CustomCard
+              titleColor="custom-color-text"
+              title="90%"
+              subtitle="S'accordent à dire que la santé mentale est la priorité pour 2024"
+            />
+            <CustomCard
+              titleColor="custom-color-text"
               title="14%"
               subtitle="Des dépenses totales de l'Assurance Maladie sont en relation avec les maladies psychiatriques"
+            />
+            <CustomCard
+              titleColor="custom-color-text-2"
+              title="66%"
+              subtitle="Des salariés souffrent d'un manque d'équilibre entre vie professionnelle et personnelle."
+            />
+            <CustomCard
+              titleColor="custom-color-text-3"
+              title="68%"
+              subtitle="Des salariés souffrent de manque de considération de leur hiérarchie."
             />
           </div>
         </div>
