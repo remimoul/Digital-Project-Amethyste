@@ -2,12 +2,13 @@ import React from 'react';
 import Navbar from './navbar.js';
 import IMG90 from '../assets/90.png';
 import CustomCard from './customcard.js';
+import Footer from './footer.js';
 
 function Home() {
   return (
     <>
       <Navbar />
-      <div className="w-full h-full">
+      <div className="max-w-full max-h-full">
         <div className="mx-4 md:mx-56">
           <div className="flex flex-col md:flex-row  items-center">
             <img src={IMG90} className="w-full md:w-auto" alt="90" />
@@ -115,6 +116,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

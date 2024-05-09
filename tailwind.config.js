@@ -10,6 +10,7 @@ module.exports = {
         'event': '#E3C9E2',
         'grin': '#34B7C0',
         'custom-purple': '#F1C9FF',
+        'selago': "#ECF1FC",
       },
       fontFamily: {
         'inter': ['Inter', 'sans-serif'],
