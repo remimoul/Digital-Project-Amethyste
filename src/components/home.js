@@ -18,7 +18,7 @@ function Home() {
               <button className="bg-custom-purple py-2 px-2 rounded-lg font-inter w-48">Lire le rapport d'étude</button>
             </div>
           </div>
-          <div className="flex flex-wrap  justify-center items-center ml-16">
+          <div className="flex flex-wrap justify-center items-center ml-16 -mt-28">
             <CustomCard
               titleColor="custom-color-text"
               title="20%"
@@ -49,6 +49,15 @@ function Home() {
               title="68%"
               subtitle="Des salariés souffrent de manque de considération de leur hiérarchie."
             />
+            <div className='w-1/3 h-48 mr-20 ml-20'>
+            <p className="font-bold font-inter text-2xl mb-4 ">
+               Les facteurs de souffrance au travail
+              </p>
+              <p className="font-inter">
+              Ce n’est pas tant leur métier que les conditions dans lesquelles ils
+l’exercent qui affectent le moral des salariés.
+  </p>
+            </div>
           </div>
         </div>
       </div>
