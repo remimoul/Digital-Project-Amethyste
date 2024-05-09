@@ -91,7 +91,7 @@ function Home() {
                   />
                   <CustomCard
                     size="w-full md:w-1/3"
-                    titleColor="custom-color-text-3"
+                    titleColor="custom-color-text-4"
                     title="7%"
                     subtitle="des salariés, seulement,osent parler de leurs difficultés psychologiques à leurs supérieurs et responsables des ressources humaines."
                   />
@@ -100,7 +100,7 @@ function Home() {
                 <div className="flex flex-col md:flex-row justify-end">
                   <CustomCard
                     size="w-full md:w-1/3"
-                    titleColor="custom-color-text"
+                    titleColor="custom-color-text-5"
                     title="3/4"
                     subtitle="Des salariés sont concernés par des troubles anxieux et des syndromes dépressifs"
                   />
