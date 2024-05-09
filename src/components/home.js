@@ -15,7 +15,9 @@ function Home() {
               <p className="mb-6 font-bold font-inter text-4xl">
                 S’accordent à dire que la santé mentale est la priorité pour 2024
               </p>
-              <button className="bg-custom-purple py-2 px-2 rounded-lg font-inter w-full md:w-48">Lire le rapport d'étude</button>
+              <button className="bg-custom-purple py-2 px-2 rounded-lg font-inter w-full md:w-48">
+                Lire le rapport d'étude
+              </button>
             </div>
           </div>
           <div className="flex flex-wrap justify-center items-center ml-0 md:ml-16 -mt-28">
@@ -78,8 +80,8 @@ function Home() {
               </div>
 
               <div className="w-full flex flex-col md:flex flex-row mt-16">
-              {/* <div className="w-full flex flex-col md:flex-row mt-16"> */}
-              <div className="flex flex-col md:flex-row justify-end">
+                {/* <div className="w-full flex flex-col md:flex-row mt-16"> */}
+                <div className="flex flex-col md:flex-row justify-end">
                   <CustomCard
                     size="w-full md:w-1/3"
                     titleColor="custom-color-text-2"

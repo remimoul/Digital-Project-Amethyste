@@ -56,3 +56,21 @@ body {
   -moz-text-fill-color: transparent;
   text-fill-color: transparent;
 }
+
+/* STYLE BURGER MENU */
+.bm-overlay {
+  margin-top: 11% !important;
+  background: none !important;
+}
+
+.bm-menu-wrap {
+  position: fixed !important;
+  height: 100% !important;
+}
+
+.bm-menu {
+  margin-top: 16px !important;
+  background: white !important;
+  padding: 2.5em 1.5em 0 !important;
+  font-size: 1.15em !important;
+}
