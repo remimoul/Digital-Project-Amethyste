@@ -95,7 +95,7 @@ body {
 }
 
 .bm-menu {
-  position: fixed !important;
+  position: sticky !important;
   margin-top: 19px !important;
   background: white !important;
   padding: 2.5em 1.5em 0 !important;
