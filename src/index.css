@@ -95,7 +95,8 @@ body {
 }
 
 .bm-menu {
-  margin-top: 16px !important;
+  position: fixed !important;
+  margin-top: 19px !important;
   background: white !important;
   padding: 2.5em 1.5em 0 !important;
   font-size: 1.15em !important;
