@@ -3,6 +3,7 @@ import '../index.css';
 import Logo from '../assets/Logo-color.png';
 import { slide as Menu } from 'react-burger-menu';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import Vector from '../assets/Vector.svg';
 
 function Navbar() {
   const [OpenBurger, setOpenBurger] = useState(false);
@@ -31,12 +32,28 @@ function Navbar() {
             </ul>
           </Menu>
         </div>
-        <ul className="hidden md:flex justify-end ml-auto items-center">
+        {/* <ul className="hidden md:flex justify-end ml-auto items-center">
           <li className="font-bold text-2xl ml-16 text-agir align-middle">AGIR</li>
           <li className="font-bold text-md ml-10 text-event">EVENEMENTS</li>
           <li className="font-bold text-md ml-10 text-grin">ARTICLE</li>
           <li className="font-bold text-md ml-10 text-grin">TEMOIGNAGE</li>
           <li className="font-bold text-md ml-10 text-grin mr-10">S'ORIENTER</li>
+        </ul> */}
+        <ul className="flex text-center text-[#464754] font-poppins text-base font-semibold">
+          <li className="flex items-center ml-8 ">
+            A propos <img className="ml-4" src={Vector} alt="vector" />
+          </li>
+
+          <li className="flex items-center ml-8">
+            L'offre <img className="ml-4" src={Vector} alt="vector" />
+          </li>
+          <li className="flex items-center ml-8 mr-24">
+            Contact <img className="ml-4" src={Vector} alt="vector" />
+          </li>
+
+          <li className="mr-16 bg-[#34B7C0] flex p-[11px] justify-center items-center space-x-2.5 rounded-3xl text-white">
+            Connexion
+          </li>
         </ul>
       </nav>
     </div>
