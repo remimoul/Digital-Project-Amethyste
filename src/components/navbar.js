@@ -23,12 +23,16 @@ function Navbar() {
             className="md:hidden"
             customBurgerIcon={OpenBurger ? <FaTimes size={30} /> : <FaBars size={30} />}
           >
-            <ul className="flex flex-col ml-auto items-center">
-              <li className="font-bold text-5xl  text-agir align-middle">AGIR</li>
+            <ul className="flex flex-col ml-auto items-center text-[#464754] font-poppins text-base font-semibold">
+              {/* <li className="font-bold text-5xl  text-agir align-middle">AGIR</li>
               <li className="font-bold text-4xl mt-6 text-event">EVENEMENTS</li>
               <li className="font-bold text-4xl mt-6 text-grin">ARTICLE</li>
               <li className="font-bold text-4xl mt-6 text-grin">TEMOIGNAGE</li>
-              <li className="font-bold text-4xl mt-6 text-grin mr-10">S'ORIENTER</li>
+              <li className="font-bold text-4xl mt-6 text-grin mr-10">S'ORIENTER</li> */}
+              <li className="font-bold text-3xl flex">A propos <img className="ml-4" src={Vector} alt="vector" /></li>
+              <li className="font-bold text-3xl mt-6 flex">L'offre<img className="ml-4" src={Vector} alt="vector" /></li>
+              <li className="font-bold text-3xl mt-6 flex">Contact<img className="ml-4" src={Vector} alt="vector" /></li>
+              <li className="mr-16 bg-[#34B7C0] flex p-[11px] justify-center items-center space-x-2.5 rounded-3xl text-white mt-10">Connexion</li>
             </ul>
           </Menu>
         </div>
@@ -39,7 +43,7 @@ function Navbar() {
           <li className="font-bold text-md ml-10 text-grin">TEMOIGNAGE</li>
           <li className="font-bold text-md ml-10 text-grin mr-10">S'ORIENTER</li>
         </ul> */}
-        <ul className="flex text-center text-[#464754] font-poppins text-base font-semibold">
+        <ul className="hidden md:flex text-center text-[#464754] font-poppins text-base font-semibold">
           <li className="flex items-center ml-8 ">
             A propos <img className="ml-4" src={Vector} alt="vector" />
           </li>
