@@ -63,7 +63,7 @@ function Home() {
               </button>
             </div>
           </div>
-          <div className="flex flex-wrap justify-center items-center ml-0 md:ml-16 -mt-28">
+          <div className="flex flex-wrap items-center ml-0 md:ml-40 -mt-28">
             <CustomCard
               size="w-full md:w-1/5"
               titleColor="custom-color-text"
@@ -102,7 +102,7 @@ function Home() {
                 title="68%"
                 subtitle="Des salariés souffrent de manque de considération de leur hiérarchie."
               />
-              <div className="flex flex-col w-full md:w-3/5 mb-28 md:mt-28">
+              <div className="flex flex-col w-full md:w-5/12 mb-28 md:mt-28">
                 <p className="font-bold font-inter text-2xl mb-4 ">Les facteurs de souffrance au travail</p>
                 <p className="font-inter">
                   Ce n’est pas tant leur métier que les conditions dans lesquelles ils l’exercent qui affectent le moral
