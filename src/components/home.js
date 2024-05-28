@@ -51,7 +51,7 @@ function Home() {
 
         {/* End of MobileDemo component */}
 
-        <div className="mx-4 md:mx-56">
+        <div className="mx-4 md:mx-20">
           <div className="flex flex-col md:flex-row  items-center">
             <img src={IMG90} className="w-full md:w-auto" alt="90" />
             <div className="flex flex-col mb-60 mr-0 md:mr-60">
@@ -91,13 +91,13 @@ function Home() {
 
             <div className="flex flex-col md:flex-row h-full md:h-48 items-center">
               <CustomCard
-                size="w-full md:w-1/4"
+                size="w-full md:w-1/5"
                 titleColor="custom-color-text-2"
                 title="66%"
                 subtitle="Des salariés souffrent d'un manque d'équilibre entre vie professionnelle et personnelle."
               />
               <CustomCard
-                size="w-full md:w-1/4"
+                size="w-full md:w-1/5"
                 titleColor="custom-color-text-3"
                 title="68%"
                 subtitle="Des salariés souffrent de manque de considération de leur hiérarchie."
