@@ -14,7 +14,7 @@ function Home() {
       <Navbar />
       <div className="max-w-full max-h-full">
         {/* This is the MobileDemo component */}
-        <div className="flex flex-col-reverse md:mt-12 md:flex-row items-center justify-center md:gap-9">
+        <div className="flex flex-col-reverse md:mt-4 md:flex-row items-center justify-center md:gap-9">
   <div className="w-full md:w-1/2">
     <div className="flex flex-col justify-center items-center self-stretch ">
       <h1 className="font-inter text-[32px] md:text-[68px] font-semibold leading-[40px] md:leading-[80px] tracking-tighter w-10/12">
@@ -33,9 +33,9 @@ function Home() {
   <span className="md:hidden flex">Télécharger l'app <img className='ml-2' src={NextArrow} alt='next'/> </span>
     <span className="hidden md:inline">Découvrir nos programmes</span>
   </button>
-  <button className="bg-white text-[#34B7C0] font-poppins text-base font-semibold py-2 px-4 md:text-lg md:py-3 md:px-6 rounded-lg hidden md:block ">
+  {/* <button className="bg-white text-[#34B7C0] font-poppins text-base font-semibold py-2 px-4 md:text-lg md:py-3 md:px-6 rounded-lg hidden md:block ">
     Demander une démo
-  </button>
+  </button> */}
 </div>
       <div className="flex space-x-4 justify-center items-center">
         <img src={LogoAppleStore} alt="AppleStore" />
