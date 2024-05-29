@@ -6,7 +6,7 @@ import Footer from './footer.js';
 import LogoAppleStore from '../assets/appstore.png';
 import LogoGooglePlay from '../assets/playstore.png';
 import MobileDemo from '../assets/mobiledemo.png';
-import NextArrow from '../assets/ph_arrow-right-bold.svg'; 
+import NextArrow from '../assets/ph_arrow-right-bold.svg';
 
 function Home() {
   return (
@@ -15,39 +15,41 @@ function Home() {
       <div className="max-w-full max-h-full">
         {/* This is the MobileDemo component */}
         <div className="flex flex-col-reverse md:mt-4 md:flex-row items-center justify-center md:gap-9">
-  <div className="w-full md:w-1/2">
-    <div className="flex flex-col justify-center items-center self-stretch ">
-      <h1 className="font-inter text-[32px] md:text-[68px] font-semibold leading-[40px] md:leading-[80px] tracking-tighter w-10/12">
-        <span className="custom-color-text-liberez">Libérez </span>
-        le bien-être au travail
-      </h1>
-      <p className="text-[#282830] font-inter text-lg font-normal md:py-8 mx-8 mt-4 ">
-        Avec notre application, découvrez une équipe de 'Happiness Officers' dédiée à l'épanouissement de votre
-        entreprise ou de vous même.<br></br> Que vous soyez chef d’entreprise ou salarié, nos différents programmes vous
-        aiderons à prendre soin de vous ou de votre entourage.
-      </p>
-    </div>
-    <div className="flex flex-col space-y-4">
-    <div className="flex space-x-4 justify-center items-center mt-6">
-  <button className="bg-[#34B7C0] text-white font-poppins text-base font-semibold py-2 px-4 md:text-lg md:py-3 md:px-6 rounded-lg">
-  <span className="md:hidden flex">Télécharger l'app <img className='ml-2' src={NextArrow} alt='next'/> </span>
-    <span className="hidden md:inline">Découvrir nos programmes</span>
-  </button>
-  {/* <button className="bg-white text-[#34B7C0] font-poppins text-base font-semibold py-2 px-4 md:text-lg md:py-3 md:px-6 rounded-lg hidden md:block ">
+          <div className="w-full md:w-1/2">
+            <div className="flex flex-col justify-center items-center self-stretch ">
+              <h1 className="font-inter text-[32px] md:text-[68px] font-semibold leading-[40px] md:leading-[80px] tracking-tighter w-10/12">
+                <span className="custom-color-text-liberez">Libérez </span>
+                le bien-être au travail
+              </h1>
+              <p className="text-[#282830] font-inter text-lg font-normal md:py-8 mx-8 mt-4 ">
+                Avec notre application, découvrez une équipe de 'Happiness Officers' dédiée à l'épanouissement de votre
+                entreprise ou de vous même.<br></br> Que vous soyez chef d’entreprise ou salarié, nos différents
+                programmes vous aiderons à prendre soin de vous ou de votre entourage.
+              </p>
+            </div>
+            <div className="flex flex-col space-y-4">
+              <div className="flex space-x-4 justify-center items-center mt-6">
+                <button className="bg-[#34B7C0] text-white font-poppins text-base font-semibold py-2 px-4 md:text-lg md:py-3 md:px-6 rounded-lg">
+                  <span className="md:hidden flex">
+                    Télécharger l'app <img className="ml-2" src={NextArrow} alt="next" />{' '}
+                  </span>
+                  <span className="hidden md:inline">Découvrir nos programmes</span>
+                </button>
+                {/* <button className="bg-white text-[#34B7C0] font-poppins text-base font-semibold py-2 px-4 md:text-lg md:py-3 md:px-6 rounded-lg hidden md:block ">
     Demander une démo
   </button> */}
-</div>
-      <div className="flex space-x-4 justify-center items-center">
-        <img src={LogoAppleStore} alt="AppleStore" />
-        <img src={LogoGooglePlay} alt="PlayStore" />
-      </div>
-    </div>
-  </div>
+              </div>
+              <div className="flex space-x-4 justify-center items-center">
+                <img src={LogoAppleStore} alt="AppleStore" />
+                <img src={LogoGooglePlay} alt="PlayStore" />
+              </div>
+            </div>
+          </div>
 
-  <div className="flex mt-6 md:mt-0 w-full md:w-auto">
-  <img className='w-10/12 md:w-full mx-auto' src={MobileDemo} alt="MobileDemo" />
-</div>
-</div>
+          <div className="flex mt-6 md:mt-0 w-full md:w-auto">
+            <img className="w-10/12 md:w-full mx-auto" src={MobileDemo} alt="MobileDemo" />
+          </div>
+        </div>
 
         {/* End of MobileDemo component */}
 

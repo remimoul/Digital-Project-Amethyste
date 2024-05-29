@@ -16,7 +16,7 @@ function Navbar() {
     <div className="bg-white p-4 shadow-md sticky top-0 z-50">
       <nav className="flex md:items-center justify-between">
         <Link to="/">
-        <img src={Logo} className="w-auto md:h-6 md:ml-4 h-8 ml-5" alt="GrinEasy" />
+          <img src={Logo} className="w-auto md:h-6 md:ml-4 h-8 ml-5" alt="GrinEasy" />
         </Link>
         <div className="md:hidden">
           <Menu
@@ -32,10 +32,21 @@ function Navbar() {
               <li className="font-bold text-4xl mt-6 text-grin">ARTICLE</li>
               <li className="font-bold text-4xl mt-6 text-grin">TEMOIGNAGE</li>
               <li className="font-bold text-4xl mt-6 text-grin mr-10">S'ORIENTER</li> */}
-              <li className="font-bold text-3xl flex">A propos <img className="ml-4" src={Vector} alt="vector" /></li>
-              <li className="font-bold text-3xl mt-6 flex">L'offre<img className="ml-4" src={Vector} alt="vector" /></li>
-              <li className="font-bold text-3xl mt-6 flex">Contact<img className="ml-4" src={Vector} alt="vector" /></li>
-              <li className="mr-16 bg-[#34B7C0] flex p-[11px] justify-center items-center space-x-2.5 rounded-3xl text-white mt-10">Télécharger l'app</li>
+              <li className="font-bold text-3xl flex">
+                <Link to="/apropos">A propos </Link>
+                <img className="ml-4" src={Vector} alt="vector" />
+              </li>
+              <li className="font-bold text-3xl mt-6 flex">
+                <Link to="/offre">L'offre</Link>
+                <img className="ml-4" src={Vector} alt="vector" />
+              </li>
+              <li className="font-bold text-3xl mt-6 flex">
+                Contact
+                <img className="ml-4" src={Vector} alt="vector" />
+              </li>
+              <li className="mr-16 bg-[#34B7C0] flex p-[11px] justify-center items-center space-x-2.5 rounded-3xl text-white mt-10">
+                Télécharger l'app
+              </li>
             </ul>
           </Menu>
         </div>
@@ -48,21 +59,20 @@ function Navbar() {
         </ul> */}
         <ul className="hidden md:flex text-center text-[#464754] font-poppins text-base font-semibold">
           <li className="flex items-center ml-8 ">
-            <Link to="/apropos">
-            A propos </Link><img className="ml-4" src={Vector} alt="vector" />
-            
+            <Link to="/apropos">A propos </Link>
+            <img className="ml-4" src={Vector} alt="vector" />
           </li>
 
           <li className="flex items-center ml-8">
-            <Link to="/offre">L'offre</Link> 
-             <img className="ml-4" src={Vector} alt="vector" />
+            <Link to="/offre">L'offre</Link>
+            <img className="ml-4" src={Vector} alt="vector" />
           </li>
           <li className="flex items-center ml-8 mr-24">
-            <Link to="/contact">Contact</Link>
+            Contact
             <img className="ml-4" src={Vector} alt="vector" />
           </li>
           <li className="mr-16 bg-[#34B7C0] flex p-[11px] justify-center items-center space-x-2.5 rounded-3xl text-white">
-          Télécharger l'app
+            Télécharger l'app
           </li>
         </ul>
       </nav>
