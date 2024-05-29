@@ -38,14 +38,22 @@ const Footer = () => {
           </ul>
         </div>
         <div className="mt-6 md:mt-0">
-          <span className="font-bold text-xl">Ressources utiles</span>
+          <span className="font-bold text-xl">Reseaux Sociaux</span>
           <ul>
-            <li>Témoignages RH</li>
-            <li>Histoires de membres</li>
-            <li>Le guide RH et management</li>
-            <li>Bien-être au travail</li>
-            <li>Baromètre - Bien-être mental</li>
-            <li>Voir toutes nos ressources</li>
+            <li>
+              <a
+                href="https://www.instagram.com/grin.easy/?igsh=MWFwd2s1NG94cjA1bg%3D%3D"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Instagram
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                LinkedIn
+              </a>
+            </li>
             <li className="my-3">
               <img src={LogoAppleStore} alt="AppleStore" />
             </li>
