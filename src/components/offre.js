@@ -18,33 +18,21 @@ function Offre() {
             <span className="font-bold">Inclus</span> : exercices de gestion du stress, journal de bord, notifications
             push, outils d’évaluation du bien-être, espaces de communication.
           </p>
-          <p className="custom-color-text-4 font-bold font-inter text-lg md:pt-8 mx-16 mt-4 ">
+          {/* <p className="custom-color-text-4 font-bold font-inter text-lg md:pt-8 mx-16 mt-4 ">
             <span>Exemple</span> : Avec une TPE de 10 salarié, PME de 125 salarié et une GE de 5000 salarié<br></br>
-          </p>
-          <table className="table-auto mx-16">
+          </p> */}
+          <table className="table-auto mx-16 mt-6">
             <thead>
               <tr>
-                <th className="px-4 py-2">Taille de l'entreprise</th>
                 <th className="px-4 py-2">Prix</th>
                 <th className="px-4 py-2">Détail</th>
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td className="border px-4 py-2">TPE</td>
-                <td className="border px-4 py-2">50€/mois</td>
-                <td className="border px-4 py-2">5€ x 10 employés</td>
-              </tr>
-              <tr className="bg-gray-100">
-                <td className="border px-4 py-2">PME</td>
-                <td className="border px-4 py-2">312,50€/mois</td>
-                <td className="border px-4 py-2">2.5€ x 125 employés</td>
-              </tr>
-              <tr>
-                <td className="border px-4 py-2">GE</td>
-                <td className="border px-4 py-2">1000€/mois</td>
-                <td className="border px-4 py-2">0.20€ x 5000 employés</td>
-              </tr>
+              <tr>          
+                <td className="border px-4 py-2">9.90€</td>
+                <td className="border px-4 py-2">Fois le nb d'employés</td>
+              </tr>          
             </tbody>
           </table>
           <span className="text-[#282830] font-inter text-lg font-normal md:pt-8 mx-16 mt-4 ">
