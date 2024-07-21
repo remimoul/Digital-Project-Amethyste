@@ -7,18 +7,18 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
   const [OpenBurger, setOpenBurger] = useState(false);
-  const toggleMenu = () => {
+  const Menu = () => {
     setOpenBurger(!OpenBurger);
   };
   return (
-    <div className="bg-white p-4 shadow-md sticky top-0 z-50 relative">
+    <div className="bg-white p-4 shadow-md sticky top-0 z-50">
       <nav className="flex items-center justify-between">
         <Link to="/">
           <img src={Logo} className="w-auto md:h-6 md:ml-4 h-8 ml-5" alt="GrinEasy" />
         </Link>
         
         <div className="md:hidden mt-1">
-          <button onClick={toggleMenu} className="text-[#464754]">
+          <button onClick={Menu} className="text-[#464754]">
             {OpenBurger ? <FaTimes size={30} /> : <FaBars size={30} />}
           </button>
           {OpenBurger && (
