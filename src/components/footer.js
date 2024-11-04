@@ -1,7 +1,8 @@
 import React from 'react';
 import LogoFooter from '../assets/Logo-color.png';
-import LogoAppleStore from '../assets/appstore.png';
-import LogoGooglePlay from '../assets/playstore.png';
+import { Link } from 'react-router-dom';
+import LogoInstagram from '../assets/logo-instagram.svg';
+import LogoLinkedIn from '../assets/logo-linkedin.svg';
 
 const Footer = () => {
   return (
@@ -10,55 +11,33 @@ const Footer = () => {
         <img src={LogoFooter} className="w-auto md:h-8 md:ml-4 h-6 ml-5" alt="GrinEasy" />
       </div>
 
-      <div className="flex flex-col md:flex-row md:justify-between mx-16 mt-10 md:pb-7 font-inter text-selago">
+      <div className="flex flex-col pb-5 md:flex-row md:justify-between mx-16 mt-10 md:pb-7 font-inter text-selago">
         <div>
-          <span className="font-bold text-xl">A propos</span>
           <ul>
-            <li>Contact</li>
-            <li>FAQ</li>
-            <li>Qui sommes-nous</li>
-            <li>Notre équipe</li>
-            <li>Carrière</li>
-            <li>Partenaires</li>
-            <li>Presse</li>
-            <li>Conditions d'utilisation</li>
-            <li>Politique de confidentialité</li>
+            <li>
+              <Link to="/contact">Contactez-nous</Link>
+            </li>
+            <li><Link to="/apropos">Notre équipe</Link></li>
+            <li>
+              <Link to="/cgu">Conditions générales d'utilisation</Link>
+              </li>
           </ul>
         </div>
         <div className="mt-6 md:mt-0">
-          <span className="font-bold text-xl">Nos offres et services</span>
-          <ul>
-            <li>Forfait TPE</li>
-            <li>Forfait PME</li>
-            <li>Forfait GE</li>
-            <li>Bonus</li>
-            <li>Evenements/Team Building</li>
-            <li>Formation</li>
-            <li>Tout nos services</li>
-          </ul>
-        </div>
-        <div className="mt-6 md:mt-0">
-          <span className="font-bold text-xl">Reseaux Sociaux</span>
-          <ul>
+          <ul className="flex flex-row space-x-4">
             <li>
               <a
                 href="https://www.instagram.com/grin.easy/?igsh=MWFwd2s1NG94cjA1bg%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Instagram
+                <img src={LogoInstagram} alt="Instagram" />
               </a>
             </li>
             <li>
               <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
-                LinkedIn
+                <img src={LogoLinkedIn} alt="LinkedIn" />
               </a>
-            </li>
-            <li className="my-3">
-              <img src={LogoAppleStore} alt="AppleStore" />
-            </li>
-            <li className="pb-8">
-              <img src={LogoGooglePlay} alt="PlayStore" />
             </li>
           </ul>
         </div>

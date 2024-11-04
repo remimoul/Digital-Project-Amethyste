@@ -18,9 +18,6 @@ function Offre() {
             <span className="font-bold">Inclus</span> : exercices de gestion du stress, journal de bord, notifications
             push, outils d’évaluation du bien-être, espaces de communication.
           </p>
-          {/* <p className="custom-color-text-4 font-bold font-inter text-lg md:pt-8 mx-16 mt-4 ">
-            <span>Exemple</span> : Avec une TPE de 10 salarié, PME de 125 salarié et une GE de 5000 salarié<br></br>
-          </p> */}
           <table className="table-auto mx-16 mt-6">
             <thead>
               <tr>
@@ -29,10 +26,10 @@ function Offre() {
               </tr>
             </thead>
             <tbody>
-              <tr>          
+              <tr>
                 <td className="border px-4 py-2">9.90€</td>
                 <td className="border px-4 py-2">Fois le nb d'employés</td>
-              </tr>          
+              </tr>
             </tbody>
           </table>
           <span className="text-[#282830] font-inter text-lg font-normal md:pt-8 mx-16 mt-4 ">

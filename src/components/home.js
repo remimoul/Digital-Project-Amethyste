@@ -3,10 +3,11 @@ import Navbar from './navbar.js';
 import IMG90 from '../assets/90.png';
 import CustomCard from './customcard.js';
 import Footer from './footer.js';
-import LogoAppleStore from '../assets/appstore.png';
-import LogoGooglePlay from '../assets/playstore.png';
+import LogoAppleStore from '../assets/app-store.svg';
+import LogoGooglePlay from '../assets/play-store.svg';
 import MobileDemo from '../assets/mobiledemo.png';
 import NextArrow from '../assets/ph_arrow-right-bold.svg';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -31,17 +32,23 @@ function Home() {
               <div className="flex space-x-4 justify-center items-center mt-6">
                 <button className="bg-[#34B7C0] text-white font-poppins text-base font-semibold py-2 px-4 md:text-lg md:py-3 md:px-6 rounded-lg">
                   <span className="md:hidden flex">
-                    Télécharger l'app <img className="ml-2" src={NextArrow} alt="next" />{' '}
+                    {/* Application mobile <img className="ml-2" src={NextArrow} alt="next" />{' '} */}
+                    <Link to="/offre" className="ml-2">Découvrir nos programmes</Link>
                   </span>
-                  <span className="hidden md:inline">Découvrir nos programmes</span>
+                  {/* <span className="hidden md:inline">Découvrir nos programmes</span> */}
+                  <Link to="/offre" className="hidden md:inline">Découvrir nos programmes</Link>
                 </button>
                 {/* <button className="bg-white text-[#34B7C0] font-poppins text-base font-semibold py-2 px-4 md:text-lg md:py-3 md:px-6 rounded-lg hidden md:block ">
     Demander une démo
   </button> */}
               </div>
               <div className="flex space-x-4 justify-center items-center">
-                <img src={LogoAppleStore} alt="AppleStore" />
-                <img src={LogoGooglePlay} alt="PlayStore" />
+                <div className="flex justify-center rounded-xl items-center border-2 border-[#34B7C0] p-2">
+                <img src={LogoAppleStore} alt="AppleStore" /> Bientôt disponible
+                </div>
+                <div className="flex justify-center rounded-xl items-center border-2 border-[#34B7C0] p-2">
+                <img src={LogoGooglePlay} alt="PlayStore" /> Bientôt disponible
+                </div>
               </div>
             </div>
           </div>
@@ -60,9 +67,9 @@ function Home() {
               <p className="mb-6 font-bold font-inter text-4xl">
                 S’accordent à dire que la santé mentale est la priorité pour 2024
               </p>
-              <button className="bg-custom-purple py-2 px-2 rounded-lg font-inter w-full md:w-48">
+              {/* <button className="bg-custom-purple py-2 px-2 rounded-lg font-inter w-full md:w-48">
                 Lire le rapport d'étude
-              </button>
+              </button> */}
             </div>
           </div>
           <div className="flex flex-wrap items-center ml-0 md:ml-40 -mt-28">
