@@ -11,7 +11,7 @@ const Footer = () => {
         <img src={LogoFooter} className="w-auto md:h-8 md:ml-4 h-6 ml-5" alt="GrinEasy" />
       </div>
 
-      <div className="flex flex-col md:flex-row md:justify-between mx-16 mt-10 md:pb-7 font-inter text-selago">
+      <div className="flex flex-col pb-5 md:flex-row md:justify-between mx-16 mt-10 md:pb-7 font-inter text-selago">
         <div>
           <ul>
             <li>
