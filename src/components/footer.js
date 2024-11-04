@@ -14,7 +14,9 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row md:justify-between mx-16 mt-10 md:pb-7 font-inter text-selago">
         <div>
           <ul>
-            <li>Contact</li>
+            <li>
+              <Link to="/contact">Contactez-nous</Link>
+            </li>
             <li><Link to="/apropos">Notre équipe</Link></li>
             <li>
               <Link to="/cgu">Conditions générales d'utilisation</Link>

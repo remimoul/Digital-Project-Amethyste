@@ -43,7 +43,10 @@ function Navbar() {
           <li className="flex items-center ml-8">
             <Link to="/offre">L'offre</Link>
           </li>
-          <li className="flex items-center ml-8 mr-24">Contact</li>
+          <li className="flex items-center ml-8 mr-24">
+
+          <Link to="/contact">Contact</Link>
+          </li>
           <li className="mr-16 bg-[#34B7C0] flex p-[11px] justify-center items-center space-x-2.5 rounded-3xl text-white">
             Bientôt disponible
           </li>
