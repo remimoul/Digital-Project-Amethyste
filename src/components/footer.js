@@ -17,7 +17,9 @@ const Footer = () => {
           <ul>
             <li>Contact</li>
             <li><Link to="/apropos">Notre équipe</Link></li>
-            <li>Conditions générale d'utilisation</li>
+            <li>
+              <Link to="/cgu">Conditions générales d'utilisation</Link>
+              </li>
           </ul>
         </div>
         {/* <div className="mt-6 md:mt-0">
