@@ -3,8 +3,8 @@ import Navbar from './navbar.js';
 import IMG90 from '../assets/90.png';
 import CustomCard from './customcard.js';
 import Footer from './footer.js';
-import LogoAppleStore from '../assets/appstore.png';
-import LogoGooglePlay from '../assets/playstore.png';
+import LogoAppleStore from '../assets/app-store.svg';
+import LogoGooglePlay from '../assets/play-store.svg';
 import MobileDemo from '../assets/mobiledemo.png';
 import NextArrow from '../assets/ph_arrow-right-bold.svg';
 import { Link } from 'react-router-dom';
@@ -32,7 +32,8 @@ function Home() {
               <div className="flex space-x-4 justify-center items-center mt-6">
                 <button className="bg-[#34B7C0] text-white font-poppins text-base font-semibold py-2 px-4 md:text-lg md:py-3 md:px-6 rounded-lg">
                   <span className="md:hidden flex">
-                    Bientôt disponible <img className="ml-2" src={NextArrow} alt="next" />{' '}
+                    {/* Application mobile <img className="ml-2" src={NextArrow} alt="next" />{' '} */}
+                    <Link to="/offre" className="ml-2">Découvrir nos programmes</Link>
                   </span>
                   {/* <span className="hidden md:inline">Découvrir nos programmes</span> */}
                   <Link to="/offre" className="hidden md:inline">Découvrir nos programmes</Link>
@@ -42,8 +43,12 @@ function Home() {
   </button> */}
               </div>
               <div className="flex space-x-4 justify-center items-center">
-                <img src={LogoAppleStore} alt="AppleStore" />
-                <img src={LogoGooglePlay} alt="PlayStore" />
+                <div className="flex justify-center rounded-xl items-center border-2 border-[#34B7C0] p-2">
+                <img src={LogoAppleStore} alt="AppleStore" /> Bientôt disponible
+                </div>
+                <div className="flex justify-center rounded-xl items-center border-2 border-[#34B7C0] p-2">
+                <img src={LogoGooglePlay} alt="PlayStore" /> Bientôt disponible
+                </div>
               </div>
             </div>
           </div>

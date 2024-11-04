@@ -1,5 +1,6 @@
 import React from 'react';
 import LogoFooter from '../assets/Logo-color.png';
+import { Link } from 'react-router-dom';
 import LogoAppleStore from '../assets/appstore.png';
 import LogoGooglePlay from '../assets/playstore.png';
 
@@ -15,17 +16,11 @@ const Footer = () => {
           <span className="font-bold text-xl">A propos</span>
           <ul>
             <li>Contact</li>
-            <li>FAQ</li>
-            <li>Qui sommes-nous</li>
-            <li>Notre équipe</li>
-            <li>Carrière</li>
-            <li>Partenaires</li>
-            <li>Presse</li>
-            <li>Conditions d'utilisation</li>
-            <li>Politique de confidentialité</li>
+            <li><Link to="/apropos">Notre équipe</Link></li>
+            <li>Conditions générale d'utilisation</li>
           </ul>
         </div>
-        <div className="mt-6 md:mt-0">
+        {/* <div className="mt-6 md:mt-0">
           <span className="font-bold text-xl">Nos offres et services</span>
           <ul>
             <li>Forfait TPE</li>
@@ -36,7 +31,7 @@ const Footer = () => {
             <li>Formation</li>
             <li>Tout nos services</li>
           </ul>
-        </div>
+        </div> */}
         <div className="mt-6 md:mt-0">
           <span className="font-bold text-xl">Reseaux Sociaux</span>
           <ul>
@@ -54,12 +49,12 @@ const Footer = () => {
                 LinkedIn
               </a>
             </li>
-            <li className="my-3">
+            {/* <li className="my-3">
               <img src={LogoAppleStore} alt="AppleStore" />
             </li>
             <li className="pb-8">
               <img src={LogoGooglePlay} alt="PlayStore" />
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
