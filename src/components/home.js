@@ -6,7 +6,6 @@ import Footer from './footer.js';
 import LogoAppleStore from '../assets/app-store.svg';
 import LogoGooglePlay from '../assets/play-store.svg';
 import MobileDemo from '../assets/mobiledemo.png';
-import NextArrow from '../assets/ph_arrow-right-bold.svg';
 import { Link } from 'react-router-dom';
 
 function Home() {
