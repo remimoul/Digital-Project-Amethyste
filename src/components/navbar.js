@@ -28,7 +28,9 @@ function Navbar() {
               <li className="font-bold text-3xl mt-6 flex">
                 <Link to="/offre">L'offre</Link>
               </li>
-              <li className="font-bold text-3xl mt-6 flex">Contact</li>
+              <li className="font-bold text-3xl mt-6 flex">
+              <Link to="/contact">Contact</Link>
+              </li>
               <li className="mr-16 bg-[#34B7C0] flex p-[11px] justify-center items-center space-x-2.5 rounded-3xl text-white my-4 ml-14">
                 Bientôt disponible
               </li>
