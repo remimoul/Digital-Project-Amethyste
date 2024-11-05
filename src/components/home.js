@@ -42,11 +42,11 @@ function Home() {
     Demander une démo
   </button> */}
               </div>
-              <div className="flex space-x-4 justify-center items-center">
-                <div className="flex justify-center rounded-xl items-center border-2 border-[#34B7C0] p-2">
+              <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 justify-center items-center">
+                <div className="flex justify-center rounded-xl items-center  bg-[#34B7C0] text-white font-poppins font-semibold p-2">
                 <img src={LogoAppleStore} alt="AppleStore" /> Bientôt disponible
                 </div>
-                <div className="flex justify-center rounded-xl items-center border-2 border-[#34B7C0] p-2">
+                <div className="flex justify-center rounded-xl items-center  bg-[#34B7C0] text-white font-poppins font-semibold p-2">
                 <img src={LogoGooglePlay} alt="PlayStore" /> Bientôt disponible
                 </div>
               </div>
