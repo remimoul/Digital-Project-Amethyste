@@ -165,7 +165,7 @@ function Home() {
                     size="w-full md:w-1/3"
                     titleColor="custom-color-text-2"
                     title="1ère place"
-                    subtitle="La Qualité de Vie et les Conditions au Travail (QVCT) décroche la première place dans les attentes des salariés français. 90 % ont, en effet, déclaré que c’était une priorité"
+                    subtitle="La Qualité de Vie et les Conditions au Travail (QVCT) décroche la première place dans les attentes des salariés français."
                   />
                 </div>
               </div>
