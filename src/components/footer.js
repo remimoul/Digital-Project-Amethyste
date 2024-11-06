@@ -17,10 +17,12 @@ const Footer = () => {
             <li>
               <Link to="/contact">Contactez-nous</Link>
             </li>
-            <li><Link to="/apropos">Notre équipe</Link></li>
+            <li>
+              <Link to="/apropos">Notre équipe</Link>
+            </li>
             <li>
               <Link to="/cgu">Conditions générales d'utilisation</Link>
-              </li>
+            </li>
           </ul>
         </div>
         <div className="mt-6 md:mt-0">
