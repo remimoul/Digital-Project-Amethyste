@@ -32,10 +32,14 @@ function Home() {
                 <button className="bg-[#34B7C0] text-white font-poppins text-base font-semibold py-2 px-4 md:text-lg md:py-3 md:px-6 rounded-lg">
                   <span className="md:hidden flex">
                     {/* Application mobile <img className="ml-2" src={NextArrow} alt="next" />{' '} */}
-                    <Link to="/offre" className="ml-2">Découvrir nos programmes</Link>
+                    <Link to="/offre" className="ml-2">
+                      Découvrir nos programmes
+                    </Link>
                   </span>
                   {/* <span className="hidden md:inline">Découvrir nos programmes</span> */}
-                  <Link to="/offre" className="hidden md:inline">Découvrir nos programmes</Link>
+                  <Link to="/offre" className="hidden md:inline">
+                    Découvrir nos programmes
+                  </Link>
                 </button>
                 {/* <button className="bg-white text-[#34B7C0] font-poppins text-base font-semibold py-2 px-4 md:text-lg md:py-3 md:px-6 rounded-lg hidden md:block ">
     Demander une démo
@@ -43,10 +47,10 @@ function Home() {
               </div>
               <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 justify-center items-center">
                 <div className="flex justify-center rounded-xl items-center  bg-[#34B7C0] text-white font-poppins font-semibold p-2">
-                <img src={LogoAppleStore} alt="AppleStore" /> Bientôt disponible
+                  <img src={LogoAppleStore} alt="AppleStore" /> Bientôt disponible
                 </div>
                 <div className="flex justify-center rounded-xl items-center  bg-[#34B7C0] text-white font-poppins font-semibold p-2">
-                <img src={LogoGooglePlay} alt="PlayStore" /> Bientôt disponible
+                  <img src={LogoGooglePlay} alt="PlayStore" /> Bientôt disponible
                 </div>
               </div>
             </div>
@@ -56,8 +60,8 @@ function Home() {
             <img className="w-10/12 md:w-full mx-auto" src={MobileDemo} alt="MobileDemo" />
           </div> */}
           <div className="flex mt-6 md:mt-0 w-full md:w-auto">
-  <img className="w-[450px] h-[660px] mx-auto" src={MobileDemo} alt="MobileDemo" />
-</div>
+            <img className="md:w-[450px] md:h-[660px] w-[250px] h-[350px] mx-auto" src={MobileDemo} alt="MobileDemo" />
+          </div>
         </div>
 
         {/* End of MobileDemo component */}
