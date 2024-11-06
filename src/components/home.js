@@ -52,9 +52,12 @@ function Home() {
             </div>
           </div>
 
-          <div className="flex mt-6 md:mt-0 w-full md:w-auto">
+          {/* <div className="flex mt-6 md:mt-0 w-full md:w-auto">
             <img className="w-10/12 md:w-full mx-auto" src={MobileDemo} alt="MobileDemo" />
-          </div>
+          </div> */}
+          <div className="flex mt-6 md:mt-0 w-full md:w-auto">
+  <img className="w-[450px] h-[660px] mx-auto" src={MobileDemo} alt="MobileDemo" />
+</div>
         </div>
 
         {/* End of MobileDemo component */}
